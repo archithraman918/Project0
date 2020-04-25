@@ -1,0 +1,107 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 35px;
+}
+
+.main-nav li
+
+{
+
+display: inline-block;
+}
+
+.main-nav li a
+
+{
+color: white;
+text-decoration: none;
+padding: 5px 20px;
+font-family: "Times New Roman Georgia", Serif;
+font-size: 18px;
+}
+
+.main-nav li.active a
+
+{
+
+	border: 2px solid white;
+}
+
+.main-nav li a:hover 
+
+{
+
+	border: 1px solid white;
+}
+.logo img
+{
+
+	width: 140px;
+	height: auto;
+	float: left;
+}
+
+body
+{
+
+	font-family: sans-serif;
+}
+
+.row
+{
+	max-width: 1300px;
+	margin: auto;
+}
+
+.hero
+{
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-80%);
+}
+
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-family: "Arial Black", Gadget, sans-serif; 
+	text-align: center;
+	margin-top: 275px;
+}
+.button
+{
+
+	margin-top: 30px;
+	margin-left: 350px;
+}
+.btn
+{
+	border: 1px solid white;
+	padding: 20px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 4px;
+	font-size: 15px;
+	text-transform: uppercase;
+
+}
